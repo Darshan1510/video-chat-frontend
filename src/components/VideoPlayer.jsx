@@ -9,6 +9,9 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("xs")]: {
       width: "300px",
     },
+    transform: "rotateY(180deg)",
+    webkitTransform:"rotateY(180deg)", /* Safari and Chrome */
+    mozTransform:"rotateY(180deg)", /* Firefox */
   },
   gridContainer: {
     justifyContent: "center",
